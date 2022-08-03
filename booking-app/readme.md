@@ -143,3 +143,35 @@ func validateUserInput(firstName string, lastName string, email string, userTick
 
 # Package level variables
 variables defined at the top, outside all functions
+
+# GO PACKAGES
+We could run function in other files in go just passing their dependencies and "package main"
+
+# exporting a function in go
+just capitalize the first letter
+serviceFunction turns into ServiceFunction
+
+# maps
+all keys and values have the same type
+# sintax to create a empty map
+var map = make(map[string]string)
+
+#sintax to create a list of empty maps
+var listOfMaps = make([]map[string]string, 0)
+
+# convert userTickets in string
+	strconv.FormatUint(uint64(userTickets), 10)
+
+# structs
+create a struct
+type UserData struct {
+	firstName string
+	lastName string
+	email string
+	numberOfTickets uint
+}
+
+#concurrency
+
+
+PAREI EM 3:10:36
